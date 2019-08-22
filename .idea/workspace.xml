@@ -21,7 +21,7 @@
           <entry key="css" value="3" />
           <entry key="js" value="3" />
           <entry key="php" value="17" />
-          <entry key="xml" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -29,7 +29,7 @@
           <entry key="CSS" value="3" />
           <entry key="JavaScript" value="3" />
           <entry key="PHP" value="17" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -55,17 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nx.svg.map_1.0/templates/.default/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nx.svg.map_1.0/templates/volgamedia_map_1.0/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="837">
-              <caret line="332" column="1" lean-forward="true" selection-start-line="245" selection-end-line="332" selection-end-column="1" />
+            <state relative-caret-position="374">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -146,27 +137,7 @@
               <item name="nx.svg.map" type="b2602c69:ProjectViewProjectNode" />
               <item name="nx.svg.map" type="462c0819:PsiDirectoryNode" />
               <item name="nx.svg.map_1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nx.svg.map" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nx.svg.map" type="462c0819:PsiDirectoryNode" />
-              <item name="nx.svg.map_1.0" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nx.svg.map" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nx.svg.map" type="462c0819:PsiDirectoryNode" />
-              <item name="nx.svg.map_1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name=".default" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nx.svg.map" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nx.svg.map" type="462c0819:PsiDirectoryNode" />
-              <item name="nx.svg.map_1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="volgamedia_map_1.0" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -204,21 +175,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566481198574</updated>
-      <workItem from="1566481201465" duration="9570000" />
+      <workItem from="1566481201465" duration="9830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9570000" />
+    <option name="totallyTimeSpent" value="9830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
@@ -311,13 +281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geo_world.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3040">
-          <caret line="278" column="21" selection-start-line="278" selection-start-column="21" selection-end-line="278" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nx.svg.map_1.0/templates/volgamedia_map_1.0/ajax.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -353,10 +316,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/geo_world.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="278" column="21" selection-start-line="278" selection-start-column="21" selection-end-line="278" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nx.svg.map_1.0/templates/.default/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state relative-caret-position="374">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
         </state>
       </provider>
     </entry>

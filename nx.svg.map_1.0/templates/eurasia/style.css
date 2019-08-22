@@ -1,0 +1,289 @@
+.map-title {
+	font-size: 48px;
+	text-align: center;
+	font-weight: 500;
+	margin-bottom: 50px;
+}
+
+.map-caption {
+	width: 300px;
+	padding: 15px;
+	position: relative;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	          -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+	text-align: left;
+	background: #fcfcfc;
+	-webkit-box-shadow: 10px 10px 16px #505d65;
+	   -moz-box-shadow: 10px 10px 16px #505d65;
+			box-shadow: 10px 10px 16px #505d65;
+}
+
+
+.map-caption:before {
+	content: "Легенда";
+	display: block;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+
+}
+
+.item-caption {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	     -ms-flex-align: center;
+	        align-items: center;
+	position: relative;
+	width: 100%;
+	font-size: 16px;
+	padding: 5px  0 5px 45px;
+}
+
+.nx-svg-map-tooltip-item:before,
+.item-caption:before {
+	position: absolute;
+	left: 5px;
+	z-index: 10;
+	font-family: nx, Tahoma, Geneva, sans-serif;
+	color: #2792cb;
+	font-size: 25px;
+}
+
+.tooltip-office:before {
+	content: "д";
+}
+
+.tooltip-exclusive:before {
+	content: "U";
+}
+
+.tooltip-warehouse:before {
+	content: "!";
+}
+
+.nx-map-container {
+	display: block;
+	width: 100%;
+	height: auto;
+	position: relative;
+	z-index: 1;
+}
+
+.nx-svg-map {
+	width: 100%;
+	height: auto;
+	z-index: 0;
+	-webkit-filter: drop-shadow(0 20px 8px #505d65);
+	   -moz-filter: drop-shadow(0 20px 8px #505d65);
+	        filter: drop-shadow(0 20px 8px #505d65);
+}
+
+.nx-svg-map-countru-layer .country {
+	fill: transparent;
+	cursor: pointer;
+}
+
+.nx-svg-map-country-layer .country .country-item {
+	fill: transparent;
+	stroke: #fff;
+	stroke-width: 0.5px;
+	-webkit-transition: fill 500ms ease;
+	-moz-transition: fill 500ms ease;
+	-o-transition: fill 500ms ease;
+	transition: fill 500ms ease;
+}
+
+.nx-svg-map-country-layer .g-active .country-item {
+	fill: rgba(39, 146, 203, 0.5);
+}
+
+.nx-svg-map-country-layer .g-hover .country-item{
+	fill: rgba(39, 146, 203,0.9);
+	animation: none;
+}
+
+
+.nx-svg-map-dot {
+	height:1px;
+	width:1px;
+	position:absolute;
+	z-index: 100;
+	top:0;
+	left:0;
+	display: none;
+	background: transparent;
+	width: 100%;
+}
+
+.nx-svg-map-dot:before {
+	content: '';
+	display: block;
+	width: 100px;
+	height: 30px;
+	background: transparent;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 8;
+}
+
+.nx-svg-map-dot_active {
+	display: block;
+}
+
+.nx-svg-map-dot_active {
+	display: block;
+}
+
+.nx-svg-map-tooltip  {
+	display: block;
+	width: auto;
+	font-size: 14px;
+	height: auto;
+	padding: 20px 15px 8px 15px;
+	position:absolute;
+	z-index: 10;
+	bottom: 30px;
+	left: -38px;
+	background-color: #2b2b2b;
+}
+
+.nx-svg-map-tooltip:after {
+	content: '';
+	position: absolute;
+	z-index: 11;
+	left: 30px;
+	bottom: -38px;
+	border: 8px solid transparent;
+	border-top: 30px solid #2b2b2b;
+}
+
+.nx-svg-map-tooltip-item {
+	display: block;
+	position: relative;
+	padding-left: 45px;
+	line-height: 30px;
+	margin: 0 0 12px;
+	text-decoration: none;
+	color: #81dfff;
+	box-shadow: 0px 30px 40px #2b2b2b;
+}
+
+a.nx-svg-map-tooltip-item:after {
+	content: "";
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #2792cb;
+	border-top: none;
+	border-left: none;
+	-webkit-transform: rotate(315deg);
+	-moz-transform: rotate(315deg);
+	-ms-transform: rotate(315deg);
+	-o-transform: rotate(315deg);
+	transform: rotate(315deg);
+	margin-left: 5px;
+}
+
+a.nx-svg-map-tooltip-item.tooltip-exclusive:hover:before {
+	--box-shadow-color: #fff;
+}
+
+a.nx-svg-map-tooltip-item:hover:after {
+	border-color: #fff;
+}
+
+@media only screen and (max-width: 700px) {
+	.interactive-map {
+		padding: 0 15px;
+	}
+
+	.nx-map-container {
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+
+
+	.nx-svg-map {
+		margin-top: 0;
+		order: 1;
+	}
+
+	.wrap-label {
+		order: 2;
+	}
+
+	.map-caption {
+		-webkit-justify-content: space-between;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+		position: static;
+		order: 3;
+		padding: 0 15px;
+	}
+
+	.item-caption {
+		width: 50%;
+		margin-bottom: 15px;
+		padding-left: 35px;
+	}
+
+	.nx-svg-map-dot,
+	.nx-svg-map-tooltip {
+		position: relative;
+		height: auto;
+		bottom: auto;
+		left: auto;
+		margin-bottom: 30px;
+	}
+
+	.nx-svg-map-tooltip-item {
+		box-shadow: none;
+	}
+
+	.nx-svg-map-tooltip-item:before,
+	.item-caption:before {
+		font-size: 18px;
+	}
+
+	.tooltip-office:before {
+		font-size: 22px;
+	}
+
+	.nx-svg-map-tooltip:after {
+		display: none;
+	}
+
+	.nx-svg-map-tooltip-item {
+		padding-left: 35px;
+		line-height: 22px;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	.item-caption {
+		width: 100%;
+		padding-right: 0;
+	}
+
+	.nx-map-container {
+		margin-top: 20px;
+	}
+
+	.nx-svg-map {
+		width: 175%;
+		margin-bottom: -20px;
+	}
+}
