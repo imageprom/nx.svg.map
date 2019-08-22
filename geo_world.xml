@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>10</id>
+		<name>Map</name>
+		<table_name>b_hlbd_map</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>10</id>
+			<lid>ru</lid>
+			<name>Наша география</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>63</id>
+			<entity_id>HLBLOCK_10</entity_id>
+			<field_name>UF_NAME</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>name</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>40</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en>Name</en>
+				<ru>Название</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>Name</en>
+				<ru>Название</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en>Name</en>
+				<ru>Название</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>64</id>
+			<entity_id>HLBLOCK_10</entity_id>
+			<field_name>UF_TYPE</field_name>
+			<user_type_id>enumeration</user_type_id>
+			<xml_id>type</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<display>LIST</display>
+				<list_height>1</list_height>
+				<caption_no_value />
+				<show_no_value>Y</show_no_value>
+			</settings>
+			<edit_form_label>
+				<de />
+				<en>Type</en>
+				<ru>Тип</ru>
+			</edit_form_label>
+			<list_column_label>
+				<de />
+				<en>Type</en>
+				<ru>Тип</ru>
+			</list_column_label>
+			<list_filter_label>
+				<de />
+				<en>Type</en>
+				<ru>Тип</ru>
+			</list_filter_label>
+			<error_message>
+				<de />
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<de />
+				<en />
+				<ru />
+			</help_message>
+			<base_type>enum</base_type>
+			<enums>
+				<enum0>
+					<id>5</id>
+					<user_field_id>64</user_field_id>
+					<value>Офисы компании</value>
+					<def>Y</def>
+					<sort>100</sort>
+					<xml_id>office</xml_id>
+				</enum0>
+				<enum1>
+					<id>6</id>
+					<user_field_id>64</user_field_id>
+					<value>Склады</value>
+					<def>N</def>
+					<sort>200</sort>
+					<xml_id>warehouse</xml_id>
+				</enum1>
+				<enum2>
+					<id>7</id>
+					<user_field_id>64</user_field_id>
+					<value>Эксклюзивные партнеры</value>
+					<def>N</def>
+					<sort>300</sort>
+					<xml_id>exclusive</xml_id>
+				</enum2>
+			</enums>
+		</field>
+		<field>
+			<id>65</id>
+			<entity_id>HLBLOCK_10</entity_id>
+			<field_name>UF_COUNTRY_CODE</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>country_code</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en>Country code</en>
+				<ru>Код страны</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>Country code</en>
+				<ru>Код страны</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en>Country code</en>
+				<ru>Код страны</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>66</id>
+			<entity_id>HLBLOCK_10</entity_id>
+			<field_name>UF_URL</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>url</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en>Link</en>
+				<ru>Ссылка</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>Link</en>
+				<ru>Ссылка</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en>Link</en>
+				<ru>Ссылка</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>67</id>
+			<entity_id>HLBLOCK_10</entity_id>
+			<field_name>UF_BALNK</field_name>
+			<user_type_id>boolean</user_type_id>
+			<xml_id>blank</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>0</default_value>
+				<display>CHECKBOX</display>
+				<label>
+					<0 />
+					<1 />
+				</label>
+				<label_checkbox />
+			</settings>
+			<edit_form_label>
+				<en>Open in new tab</en>
+				<ru>Открыть в новом окне</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>Open in new tab</en>
+				<ru>Открыть в новом окне</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en>Open in new tab</en>
+				<ru>Открыть в новом окне</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>68</id>
+			<entity_id>HLBLOCK_10</entity_id>
+			<field_name>UF_NOFOLLOW</field_name>
+			<user_type_id>boolean</user_type_id>
+			<xml_id>nofollow</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>0</default_value>
+				<display>CHECKBOX</display>
+				<label>
+					<0 />
+					<1 />
+				</label>
+				<label_checkbox />
+			</settings>
+			<edit_form_label>
+				<en>Nofollow</en>
+				<ru>Nofollow</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>Nofollow</en>
+				<ru>Nofollow</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en>Nofollow</en>
+				<ru>Nofollow</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_name>Европейский офис (Вена, Австрия)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>AT</uf_country_code>
+			<uf_url>/contacts/</uf_url>
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>2</id>
+			<uf_name>Главный офис (Нижний Новгород, Россия)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>RU</uf_country_code>
+			<uf_url>/contacts/</uf_url>
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>3</id>
+			<uf_name>Gruner&amp;Jahr (Гамбург, Германия)</uf_name>
+			<uf_type>Эксклюзивные партнеры</uf_type>
+			<uf_country_code>DE</uf_country_code>
+			<uf_url>/exclusive/gruner-jahr/</uf_url>
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>4</id>
+			<uf_name>GIO Media (Нидерланды)</uf_name>
+			<uf_type>Эксклюзивные партнеры</uf_type>
+			<uf_country_code>NL</uf_country_code>
+			<uf_url>/exclusive/gio-media/</uf_url>
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>5</id>
+			<uf_name>Climat Media Agency (Париж, Франция)</uf_name>
+			<uf_type>Склады</uf_type>
+			<uf_country_code>FR</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>6</id>
+			<uf_name>December 19 (Лондон, Великобритания)</uf_name>
+			<uf_type>Склады</uf_type>
+			<uf_country_code>GB</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>7</id>
+			<uf_name>Abovo Media (Хорн, Нидерланды)</uf_name>
+			<uf_type>Склады</uf_type>
+			<uf_country_code>NL</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>8</id>
+			<uf_name>Absolute Media (Милан, Италия)</uf_name>
+			<uf_type>Склады</uf_type>
+			<uf_country_code>IT</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>9</id>
+			<uf_name>DIEMEDIAFABRIK (Берлин, Германия)</uf_name>
+			<uf_type>Склады</uf_type>
+			<uf_country_code>DE</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>10</id>
+			<uf_name>JBW Media (Кильхберг, Швейцария)</uf_name>
+			<uf_type>Склады</uf_type>
+			<uf_country_code>CH</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>11</id>
+			<uf_name>Knowlimits Group (Прага, Чехия)</uf_name>
+			<uf_type>Склады</uf_type>
+			<uf_country_code>CZ</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>12</id>
+			<uf_name>MEDIA 1. (Вена, Австрия)</uf_name>
+			<uf_type>Склады</uf_type>
+			<uf_country_code>AT</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>13</id>
+			<uf_name>Scarlet Media (Стамбул, Турция)</uf_name>
+			<uf_type>Склады</uf_type>
+			<uf_country_code>TR</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>14</id>
+			<uf_name>Infinity Media (Варшава, Польша)</uf_name>
+			<uf_type>Склады</uf_type>
+			<uf_country_code>PL</uf_country_code>
+			<uf_url>/exclusive/capitamedia/</uf_url>
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>15</id>
+			<uf_name>ИД Lagardere (Париж, Франция)</uf_name>
+			<uf_type>Эксклюзивные партнеры</uf_type>
+			<uf_country_code>FR</uf_country_code>
+			<uf_url>/exclusive/lagardere/</uf_url>
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>16</id>
+			<uf_name>X Horizon Group (Китай)</uf_name>
+			<uf_type>Эксклюзивные партнеры</uf_type>
+			<uf_country_code>CN</uf_country_code>
+			<uf_url>/exclusive/x-horizon-group/</uf_url>
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+	</items>
+</hiblock>
