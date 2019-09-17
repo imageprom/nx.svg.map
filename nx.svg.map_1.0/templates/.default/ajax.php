@@ -34,7 +34,7 @@ $map['countries']['class']['group'] = 'country';
 $map['countries']['items'] = array(
     array(
         'id' => 'MOW',
-        'dot' => array('t' => '55.71%', 'l' => '9.48%'),
+        'dot' => array('t' => '42.9%', 'l' => '12.4%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -45,7 +45,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'SPE',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),  
+        'dot' => array('t' => '29.8%', 'l' => '13.15%'),  
         'items' => array(
             array(
                 'type' => 'path',
@@ -56,7 +56,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'NEN',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '31.5%', 'l' => '29.9%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -67,7 +67,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'YAR',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '41.2%', 'l' => '15.6%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -78,7 +78,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'CHE',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '62.5%', 'l' => '25.5%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -89,7 +89,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'ULY',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '54.5%', 'l' => '17.3%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -100,7 +100,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'TYU',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '61.8%', 'l' => '31.3%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -111,7 +111,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'TUL',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '45.8%', 'l' => '11%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -122,7 +122,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'SVE',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '57.5%', 'l' => '28%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -133,7 +133,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'RYA',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '47.4%', 'l' => '12.6%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -144,7 +144,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'ORL',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '46.3%', 'l' => '9.5%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -155,7 +155,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'OMS',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '68.6%', 'l' => '34.3%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -166,7 +166,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'NGR',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '33.8%', 'l' => '12.5%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -177,7 +177,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'LIP',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '49.2%', 'l' => '11%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -187,19 +187,8 @@ $map['countries']['items'] = array(
         ),
     ),
     array(
-        'id' => 'SPE',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
-        'items' => array(
-            array(
-                'type' => 'path',
-                'd' => 'M75.27,95.42L73.7,94.9l-2.09.52-0.52,2.09,0.52,1.57,2.09,1,1.57-1,1-1.57Z',
-                'transform' => 'translate(-3.71 -5.36)'
-            ),
-        ),
-    ),
-    array(
         'id' => 'KRS',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '47.85%', 'l' => '8%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -210,7 +199,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'KGN',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '63.2%', 'l' => '28.5%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -221,7 +210,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'KGD',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '28.9%', 'l' => '3.7%'),
         'items' => array (
             array(
                 'type' => 'path',
@@ -232,7 +221,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'IVA',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '44.3%', 'l' => '15.6%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -243,7 +232,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'BRY',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '43.6%', 'l' => '8.3%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -254,7 +243,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'AST',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '68%', 'l' => '11%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -265,7 +254,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'KHA',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '82%', 'l' => '82.5%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -276,7 +265,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'CE',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '70.9%', 'l' => '7.3%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -287,7 +276,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'UD',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '52.8%', 'l' => '22.1%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -298,7 +287,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'SE',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '70.2%', 'l' => '5.95%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -309,7 +298,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'MO',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '52%', 'l' => '16%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -320,7 +309,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'KR',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '30.4%', 'l' => '16.4%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -331,7 +320,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'KL',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '65.3%', 'l' => '8.7%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -342,7 +331,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'IN',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '70.71%', 'l' => '6.7%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -353,7 +342,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'AL',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '81.3%', 'l' => '42.46%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -364,7 +353,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'BA',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '59%', 'l' => '22.3%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -375,7 +364,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'AD',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '63.7%', 'l' => '4.4%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -386,7 +375,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'CR',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '56.5%', 'l' => '1.1%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -397,7 +386,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'SEV',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '56.6%', 'l' => '0.3%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -408,7 +397,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'KO',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '44%', 'l' => '23.35%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -419,7 +408,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'KIR',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '48%', 'l' => '21.5%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -430,7 +419,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'PNZ',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '53.6%', 'l' => '14.5%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -441,7 +430,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'TAM',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '51.6%', 'l' => '12.1%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -452,7 +441,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'MUR',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '18.9%', 'l' => '23.1%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -463,7 +452,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'LEN',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '29.9%', 'l' => '12%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -474,7 +463,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'VLG',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '39%', 'l' => '17.46%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -485,7 +474,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'KOS',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '43%', 'l' => '17.3%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -496,7 +485,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'PSK',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '32.8%', 'l' => '10%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -507,7 +496,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'ARK',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '32%', 'l' => '22.2%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -518,7 +507,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'YAN',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '41.6%', 'l' => '36.6%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -529,7 +518,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'CHU',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '26%', 'l' => '93.5%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -540,7 +529,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'YEV',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '83.5%', 'l' => '80%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -551,7 +540,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'TY',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '82.5%', 'l' => '49.1%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -562,7 +551,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'SAK',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '81.6%', 'l' => '88.15%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -573,7 +562,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'AMU',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '82%', 'l' => '75.8%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -584,7 +573,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'BU',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '83%', 'l' => '59%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -595,7 +584,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'KK',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '77.7%', 'l' => '46%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -606,7 +595,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'KEM',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '72.4%', 'l' => '43.7%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -617,7 +606,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'NVS',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '71.9%', 'l' => '40.5%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -628,7 +617,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'ALT',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '77%', 'l' => '41%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -639,7 +628,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'DA',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '73.85%', 'l' => '7.6%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -650,7 +639,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'STA',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '66.3%', 'l' => '6.45%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -661,7 +650,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'KB',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '68.3%', 'l' => '5.5%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -672,7 +661,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'KC',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '66.6%', 'l' => '4.9%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -683,7 +672,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'KDA',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '60.7%', 'l' => '4.1%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -694,7 +683,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'ROS',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '58.81%', 'l' => '6.6%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -705,7 +694,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'SAM',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '58.2%', 'l' => '17.51%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -716,7 +705,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'TA',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '53.2%', 'l' => '19.1%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -727,7 +716,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'ME',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '50.5%', 'l' => '19.4%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -738,7 +727,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'CU',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '50.9%', 'l' => '17.9%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -749,7 +738,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'NIZ',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '48.2%', 'l' => '16.5%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -760,7 +749,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'VLA',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '45.5%', 'l' => '14.5%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -771,7 +760,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'MOS',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '44.1%', 'l' => '12.6%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -782,7 +771,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'KLU',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '43.2%', 'l' => '10.6%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -793,7 +782,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'BEL',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '50.5%', 'l' => '7.6%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -804,7 +793,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'ZAB',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '83%', 'l' => '63.5%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -815,7 +804,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'PRI',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '94.5%', 'l' => '81.5%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -826,7 +815,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'KAM',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '59.8%', 'l' => '95.2%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -837,7 +826,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'MAG',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '50.9%', 'l' => '86.1%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -848,7 +837,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'SA',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '57.9%', 'l' => '74.6%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -859,7 +848,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'KYA',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '73.9%', 'l' => '48.6%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -870,7 +859,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'ORE',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '64.7%', 'l' => '19.8%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -881,7 +870,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'SAR',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '58.2%', 'l' => '14.4%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -892,7 +881,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'VGG',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '60.75%', 'l' => '11.4%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -903,7 +892,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'VOR',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '52.2%', 'l' => '9.8%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -914,7 +903,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'SMO',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '39.8%', 'l' => '9.1%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -925,7 +914,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'TVE',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '39.2%', 'l' => '13.3%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -936,7 +925,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'PER',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '53.8%', 'l' => '24.9%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -947,7 +936,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'KHM',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '54.7%', 'l' => '33.8%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -958,7 +947,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'TOM',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '68.7%', 'l' => '43.6%'),
         'items' => array(
             array(
                 'type' => 'path',
@@ -969,7 +958,7 @@ $map['countries']['items'] = array(
     ),
     array(
         'id' => 'IRK',
-        'dot' => array('t' => '62.81%', 'l' => '13.46%'),
+        'dot' => array('t' => '80.8%', 'l' => '56.4%'),
         'items' => array(
             array(
                 'type' => 'path',

@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>9</id>
+		<name>Map</name>
+		<table_name>b_hlbd_map</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>9</id>
+			<lid>ru</lid>
+			<name>Наша география</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>56</id>
+			<entity_id>HLBLOCK_9</entity_id>
+			<field_name>UF_NAME</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>name</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>40</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en>Name</en>
+				<ru>Название</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>Name</en>
+				<ru>Название</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en>Name</en>
+				<ru>Название</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>57</id>
+			<entity_id>HLBLOCK_9</entity_id>
+			<field_name>UF_TYPE</field_name>
+			<user_type_id>enumeration</user_type_id>
+			<xml_id>type</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<display>LIST</display>
+				<list_height>1</list_height>
+				<caption_no_value />
+				<show_no_value>Y</show_no_value>
+			</settings>
+			<edit_form_label>
+				<de />
+				<en>Type</en>
+				<ru>Тип</ru>
+			</edit_form_label>
+			<list_column_label>
+				<de />
+				<en>Type</en>
+				<ru>Тип</ru>
+			</list_column_label>
+			<list_filter_label>
+				<de />
+				<en>Type</en>
+				<ru>Тип</ru>
+			</list_filter_label>
+			<error_message>
+				<de />
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<de />
+				<en />
+				<ru />
+			</help_message>
+			<base_type>enum</base_type>
+			<enums>
+				<enum0>
+					<id>6</id>
+					<user_field_id>57</user_field_id>
+					<value>Офисы компании</value>
+					<def>Y</def>
+					<sort>100</sort>
+					<xml_id>office</xml_id>
+				</enum0>
+				<enum1>
+					<id>7</id>
+					<user_field_id>57</user_field_id>
+					<value>Склады</value>
+					<def>N</def>
+					<sort>200</sort>
+					<xml_id>warehouse</xml_id>
+				</enum1>
+				<enum2>
+					<id>8</id>
+					<user_field_id>57</user_field_id>
+					<value>Эксклюзивные партнеры</value>
+					<def>N</def>
+					<sort>300</sort>
+					<xml_id>exclusive</xml_id>
+				</enum2>
+			</enums>
+		</field>
+		<field>
+			<id>58</id>
+			<entity_id>HLBLOCK_9</entity_id>
+			<field_name>UF_COUNTRY_CODE</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>country_code</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en>Region code</en>
+				<ru>Код региона</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>Region code</en>
+				<ru>Код региона</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en>Region code</en>
+				<ru>Код региона</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>59</id>
+			<entity_id>HLBLOCK_9</entity_id>
+			<field_name>UF_URL</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>url</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en>Link</en>
+				<ru>Ссылка</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>Link</en>
+				<ru>Ссылка</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en>Link</en>
+				<ru>Ссылка</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>60</id>
+			<entity_id>HLBLOCK_9</entity_id>
+			<field_name>UF_BALNK</field_name>
+			<user_type_id>boolean</user_type_id>
+			<xml_id>blank</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>0</default_value>
+				<display>CHECKBOX</display>
+				<label>
+					<0 />
+					<1 />
+				</label>
+				<label_checkbox />
+			</settings>
+			<edit_form_label>
+				<en>Open in new tab</en>
+				<ru>Открыть в новом окне</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>Open in new tab</en>
+				<ru>Открыть в новом окне</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en>Open in new tab</en>
+				<ru>Открыть в новом окне</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>61</id>
+			<entity_id>HLBLOCK_9</entity_id>
+			<field_name>UF_NOFOLLOW</field_name>
+			<user_type_id>boolean</user_type_id>
+			<xml_id>nofollow</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>0</default_value>
+				<display>CHECKBOX</display>
+				<label>
+					<0 />
+					<1 />
+				</label>
+				<label_checkbox />
+			</settings>
+			<edit_form_label>
+				<en>Nofollow</en>
+				<ru>Nofollow</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>Nofollow</en>
+				<ru>Nofollow</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en>Nofollow</en>
+				<ru>Nofollow</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_name>Москва</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>MOW</uf_country_code>
+			<uf_url>/contacts/</uf_url>
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>2</id>
+			<uf_name>Санкт-Петербург</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>SPE</uf_country_code>
+			<uf_url>/contacts/</uf_url>
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>3</id>
+			<uf_name>Нарьян-Мар (Ненецкий автономный округ)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>NEN</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>4</id>
+			<uf_name>Ярославль (Ярославская область)</uf_name>
+			<uf_type>Эксклюзивные партнеры</uf_type>
+			<uf_country_code>YAR</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>5</id>
+			<uf_name>Челябинск (Челябинская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>CHE</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>6</id>
+			<uf_name>Ульяновск (Ульяновская область)</uf_name>
+			<uf_type>Склады</uf_type>
+			<uf_country_code>ULY</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>7</id>
+			<uf_name>Тюмень (Тюменская область)</uf_name>
+			<uf_type>Склады</uf_type>
+			<uf_country_code>TYU</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>8</id>
+			<uf_name>Тула (Тульская область)</uf_name>
+			<uf_type>Склады</uf_type>
+			<uf_country_code>TUL</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>9</id>
+			<uf_name>Екатеринбург (Свердловская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>SVE</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>10</id>
+			<uf_name>Рязань (Рязанская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>RYA</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>11</id>
+			<uf_name>Орёл (Орловская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>ORL</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>12</id>
+			<uf_name>Омск (Омская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>OMS</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>13</id>
+			<uf_name>Великий Новгород (Новгородская область)</uf_name>
+			<uf_type>Склады</uf_type>
+			<uf_country_code>NGR</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>14</id>
+			<uf_name>Липецк (Липецкая область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>LIP</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>15</id>
+			<uf_name>Курск (Курская область)</uf_name>
+			<uf_type>Эксклюзивные партнеры</uf_type>
+			<uf_country_code>KRS</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>16</id>
+			<uf_name>Курган (Курганская область)</uf_name>
+			<uf_type>Эксклюзивные партнеры</uf_type>
+			<uf_country_code>KGN</uf_country_code>
+			<uf_url>/</uf_url>
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>17</id>
+			<uf_name>Калининград (Калининградская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>KGD</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>18</id>
+			<uf_name>Иваново (Ивановская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>IVA</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>19</id>
+			<uf_name>Брянск (Брянская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>BRY</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>20</id>
+			<uf_name>Астрахань (Астраханская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>AST</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>21</id>
+			<uf_name>Хабаровск (Хабаровский край)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>KHA</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>22</id>
+			<uf_name>Грозный (Чеченская Республика)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>CE</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>23</id>
+			<uf_name>Ижевск (Удмуртская Республика)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>UD</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>24</id>
+			<uf_name>Владикавказ (Северная Осетия)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>SE</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>25</id>
+			<uf_name>Саранск (Республика Мордовия)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>MO</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>26</id>
+			<uf_name>Петрозаводск (Республика Карелия)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>KR</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>27</id>
+			<uf_name>Элиста (Республика Калмыкия)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>KL</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>28</id>
+			<uf_name>Магас (Республика Ингушетия)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>IN</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>29</id>
+			<uf_name>Горно-Алтайск (Республика Алтай)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>AL</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>30</id>
+			<uf_name>Уфа (Республика Башкортостан)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>BA</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>31</id>
+			<uf_name>Майкоп (Республика Адыгея)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>AD</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>32</id>
+			<uf_name>Симферополь (Республика Крым)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>CR</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>33</id>
+			<uf_name>Севастополь</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>SEV</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>34</id>
+			<uf_name>Сыктывкар (Республика Коми)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>KO</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>35</id>
+			<uf_name>Киров (Кировская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>KIR</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>36</id>
+			<uf_name>Пенза (Пензенская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>PNZ</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>37</id>
+			<uf_name>Тамбов (Тамбовская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>TAM</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>38</id>
+			<uf_name>Мурманск (Мурманская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>MUR</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>39</id>
+			<uf_name>Ленинградская область</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>LEN</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>40</id>
+			<uf_name>Вологда (Вологодская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>VLG</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>41</id>
+			<uf_name>Кострома (Костромская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>KOS</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>42</id>
+			<uf_name>Псков (Псковская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>PSK</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>43</id>
+			<uf_name>Архангельск (Архангельская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>ARK</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>44</id>
+			<uf_name>Салехард (Ямало-Ненецкий автономный округ)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>YAN</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>45</id>
+			<uf_name>Анадырь (Чукотский автономный округ)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>CHU</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>46</id>
+			<uf_name>Биробиджан (Еврейская автономная область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>YEV</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>47</id>
+			<uf_name>Кызыл (Республика Тыва)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>TY</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>48</id>
+			<uf_name>Южно-Сахалинск (Сахалинская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>SAK</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>49</id>
+			<uf_name>Благовещенск (Амурская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>AMU</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>50</id>
+			<uf_name>Улан-Удэ (Бурятия)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>BU</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>51</id>
+			<uf_name>Абакан (Республика Хакасия)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>KK</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>52</id>
+			<uf_name>Кемерово (Кемеровская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>KEM</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>53</id>
+			<uf_name>Новосибирск (Новосибирская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>NVS</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>54</id>
+			<uf_name>Барнаул (Алтайский край)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>ALT</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>55</id>
+			<uf_name>Махачкала (Республика Дагестан)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>DA</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>56</id>
+			<uf_name>Ставрополь (Ставропольский край)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>STA</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>57</id>
+			<uf_name>Нальчик (Кабардино-Балкария)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>KB</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>58</id>
+			<uf_name>Черкесск (Карачаево-Черкесия)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>KC</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>59</id>
+			<uf_name>Краснодар (Краснодарский край)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>KDA</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>60</id>
+			<uf_name>Ростов-на-Дону (Ростовская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>ROS</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>61</id>
+			<uf_name>Самара (Самарская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>SAM</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>62</id>
+			<uf_name>Казань (Республика Татарстан)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>TA</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>63</id>
+			<uf_name>Йошкар-Ола (Республика Марий Эл)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>ME</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>64</id>
+			<uf_name>Чебоксары (Республика Чувашия)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>CU</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>65</id>
+			<uf_name>Нижний Новгород (Нижегородская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>NIZ</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>66</id>
+			<uf_name>Владимир (Владимирская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>VLA</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>67</id>
+			<uf_name>Московская область</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>MOS</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>68</id>
+			<uf_name>Калуга (Калужская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>KLU</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>69</id>
+			<uf_name>Белгород (Белгородская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>BEL</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>70</id>
+			<uf_name>Чита (Забайкальский край)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>ZAB</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>71</id>
+			<uf_name>Владивосток (Приморский край)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>PRI</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>72</id>
+			<uf_name>Петропавловск-Камчатский (Камчатский край)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>KAM</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>73</id>
+			<uf_name>Магадан (Магаданская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>MAG</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>74</id>
+			<uf_name>Якутск (Республика Саха)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>SA</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>75</id>
+			<uf_name>Красноярск (Красноярский край)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>KYA</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>76</id>
+			<uf_name>Оренбург (Оренбургская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>ORE</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>77</id>
+			<uf_name>Саратов (Саратовская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>SAR</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>78</id>
+			<uf_name>Волгоград (Волгоградская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>VGG</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>79</id>
+			<uf_name>Воронеж (Воронежская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>VOR</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>80</id>
+			<uf_name>Смоленск (Смоленская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>SMO</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>81</id>
+			<uf_name>Тверь (Тверская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>TVE</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>82</id>
+			<uf_name>Пермь (Пермский край)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>PER</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>83</id>
+			<uf_name>Ханты-Мансийск (Ханты-Мансийский автономный округ)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>KHM</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>84</id>
+			<uf_name>Томск (Томская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>TOM</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+		<item>
+			<id>85</id>
+			<uf_name>Иркутск (Иркутская область)</uf_name>
+			<uf_type>Офисы компании</uf_type>
+			<uf_country_code>IRK</uf_country_code>
+			<uf_url />
+			<uf_balnk>0</uf_balnk>
+			<uf_nofollow>0</uf_nofollow>
+		</item>
+	</items>
+</hiblock>
